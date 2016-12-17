@@ -8,3 +8,9 @@ Java Project Spring JDBC Mysql 1
   `telephone` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 );
+
+
+Modify /src/Beans.xml
+<property name="url" value="jdbc:mysql://HOST:3306/DB"/>
+<property name="username" value="user"/>
+<property name="password" value="password"/>
