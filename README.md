@@ -11,6 +11,6 @@ Java Project Spring JDBC Mysql 1
 
 
 Modify /src/Beans.xml
-<property name="url" value="jdbc:mysql://HOST:3306/DB"/>
-<property name="username" value="user"/>
-<property name="password" value="password"/>
+ jdbc:mysql://HOST:3306/DB"
+ name="username" value="user"
+ name="password" value="password"
