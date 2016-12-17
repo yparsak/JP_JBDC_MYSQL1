@@ -24,8 +24,8 @@ public class MainApp {
 		List<User> users = userJDBCTemplate.listUsers();
 	    for (User record : users) {
 	         System.out.print("ID : " + record.getId() );
-	         System.out.print(", Name : " + record.getName() );
-	         System.out.println(", Telephone : " + record.getTelephone());
+	         System.out.print("Name : " + record.getName() );
+	         System.out.println("Telephone : " + record.getTelephone());
 	    }
 	      
 	    System.out.println("------Updating--------" );
